@@ -88,6 +88,7 @@ class TestBooksCollector:
         assert 'Гордость и предубеждение и зомби' not in collector.get_list_of_favorites_books()
 
     # Тест для получения списка избранных книг
+
     def test_get_list_of_favorites_books(self):
         collector = BooksCollector()
 
